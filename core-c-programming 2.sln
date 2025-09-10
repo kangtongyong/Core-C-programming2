@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chap07", "chap07\chap07.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arrayUtill", "arrayUtill\arrayUtill.vcxproj", "{EB23944C-C29D-493C-855E-C735E7555AAF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing", "testing", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -44,6 +46,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABB68AB8-F792-4769-BEE3-E9C60722D62F} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
+		{FB2374E8-8D51-464D-AF6C-E44159B45C5A} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
+		{EB23944C-C29D-493C-855E-C735E7555AAF} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F4637F7-8E70-4794-B232-D73A6E49B087}
